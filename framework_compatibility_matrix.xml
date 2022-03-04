@@ -132,6 +132,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.google.google_battery</name>
+        <version>1.1</version>
+        <interface>
+            <name>IGoogleBattery</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.nxp.nxpnfc</name>
         <version>2.0</version>
         <interface>
@@ -237,6 +245,13 @@
         <version>1.0</version>
         <interface>
             <name>ILinkLatency</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.qti.hardware.display.config</name>
+        <interface>
+            <name>IDisplayConfig</name>
             <instance>default</instance>
         </interface>
     </hal>
